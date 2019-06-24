@@ -1,0 +1,17 @@
+body,div,ol,ul,li,p,h1,h2,h3,h4,h5,h6{
+	margin:0;
+	padding:0;
+    font-weight: normal;
+    font-family: "宋体";
+    color: #333333;
+}
+ol,li,ul{
+	list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333333;
+}
+.clear{
+    clear: both;
+}

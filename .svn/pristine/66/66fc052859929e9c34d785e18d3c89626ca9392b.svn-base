@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="banner">
+            <div class="right">
+                <form class="search">
+                    <a href="" class="cn">中文版</a>
+                    <a href="" class="en">英文版</a>
+                    <label for="search">搜索中心</label>
+                    <input type="search" name="search" id="search">
+                    <input type="submit" value="GO" id="submit">
+                </form>
+                <div class="company-info">
+                    <p>瑞安市中邦泵业有限公司</p>
+                    <p>>WHO WE ARE & WHAT WE DO?</p>
+                    <p>公司现有水泵500多种，机油泵100多种。
+                        采用国内最先进的生产设备检测，保证出厂产品质量稳定可靠，
+                        售后服务完善各类产品集科研、开发、生产、服务为一体，
+                        企业现有水泵、机油泵达到国际同类产品水平。
+                    </p>
+                    <button>> > 了解详情</button>
+                </div>
+            </div>
+        </div>
+        <div class="nav clear">
+            <ul>
+                <li><a href="">网站首页</a></li>
+                <li><a href="">关于中邦</a></li>
+                <li><a href="">资讯动态</a></li>
+                <li><a href="">产品世界</a></li>
+                <li><a href="">品质中心</a></li>
+                <li><a href="">营销网络</a></li>
+                <li><a href="">服务中心</a></li>
+            </ul>
+        </div>
+        <div class="content clear">
+            <div class="box left">
+                <div class="title">资讯动态</div>
+                <div class="news-list">
+                    <ul>
+                        <li>
+                            <p>ITT展示最新水务处理和节能增效研究成果（2009-8-4）</p>
+                            <p>ITT公司监测与控制业务部经理陈勇宁在上海中美工业节能研讨会上...</p>
+                        </li>
+                        <li>
+                            <p>西派克公司向希斯罗机场提供单螺杆泵（2009-8-4）</p>
+                            <p>ITT公司监测与控制业务部经理陈勇宁在上
+                                    海中美工业节能研讨会上...</p>
+                        </li>
+                        <li>
+                            <p>给排水、水处理暨泵、阀门、管道展览会（2009-8-4）</p>
+                            <p>ITT公司监测与控制业务部经理陈勇宁在上海中美工业节能研讨会上...</p>
+                        </li>
+                        <li>
+                            <p>电工陈庆德研制的水泵综合保护器荣获国家专利（2009-8-4）</p>
+                            <p>ITT公司监测与控制业务部经理陈勇宁在上海中美工业节能研讨会上...</p>
+                        </li>
+                    </ul>
+                </div>
+                <button>> > 了解详情</button>
+            </div>
+            <div class="box center">
+                <div class="title">产品世界</div>
+                <div class="product-img">
+                    <img src="images/product.png" alt="">
+                </div>
+            </div>
+            <div class="box right"></div>
+        </div>
+    </div>
+</body>
+</html>

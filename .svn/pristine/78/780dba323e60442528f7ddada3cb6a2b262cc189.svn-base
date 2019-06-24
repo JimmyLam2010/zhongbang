@@ -1,0 +1,6 @@
+@echo off
+SET REPOS=%1
+SET USER=%2
+SET SVN="E:/svn-server/bin/svn.exe"
+SET DIR="E:/phpStudy/WWW/h1902/project" 
+(call %SVN% update %DIR% --username demo1 --password 123 --non-interactive)
