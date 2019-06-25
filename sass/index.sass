@@ -1,3 +1,5 @@
+$gradient: linear-gradient(#a70329, #73001b)
+    
 .wrapper
     width: 974px
     height: 100%
@@ -32,7 +34,7 @@
             #submit
                 width: 30px
                 height: 20px
-                background: linear-gradient(#a70329, #73001b)
+                background: $gradient
                 font-size: 12px
                 font-family: "Verdana"
                 color: #ffffff
@@ -173,6 +175,58 @@
                         display: inline-block
                         font-weight: normal
 
+            .product-sub-img
+                margin-top: 12px
+
+                ul
+                    li
+                        display: inline-block
+                        width: 86px
+                        height: 69px
+                        border: 1px solid #cdc9c9
+                        cursor: pointer
+
+                        img
+                            width: 100%
+                            height: 100%
+                    
+                    li:nth-child(2)
+                        border: 1px solid #bc6c6c
+
+                    li:hover
+                        border: 1px solid #bc6c6c
+            
+            button
+                margin-top: 15px
+                float: right
+
+        .right
+            float: left
+            width: 250px
+            margin-left: 25px
+
+            .contact-info
+                font-size: 12px
+                font-family: "Verdana"
+                margin-top: 10px
+                background-color: #f3f4f4
+                border-radius: 5px
+                padding: 15px
+
+                p
+                    *
+                        vertical-align: text-top
+
+                span
+                    display: inline-block
+                    max-width: 155px
+
+        .bottom
+            margin-top: 16px
+
+            .culture
+                margin-top: 8px
+
         .box 
             .title
                 height: 29px
@@ -193,14 +247,12 @@
                 top: 0
                 left: 0
 
-            
-
 button
     width: 95px
     height: 25px
     font-size: 12px
     color: #ffffff
-    background: linear-gradient(#a70329, #73001b)
+    background: $gradient
     border: none
     border-radius: 5px
     outline: none
