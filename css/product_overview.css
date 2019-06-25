@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(reset.css);
+@import url(reset.css);
 .header {
   width: 100%;
   height: 138px;
@@ -354,4 +355,170 @@ button {
       .wrapper .right .index img {
         margin-left: 494px; }
 
-/*# sourceMappingURL=product.css.map */
+.header {
+  width: 100%;
+  height: 138px;
+  position: relative;
+  padding-top: 6px;
+  box-shadow: 0 0 5px #c2c2c2 inset; }
+  .header .logo {
+    position: absolute;
+    top: 18px;
+    left: 20px; }
+  .header .vip {
+    float: right;
+    border: 1px solid #cecdcd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(#ffffff, #e4e4e4);
+    padding: 5px 10px;
+    margin-top: 3px; }
+    .header .vip a {
+      font-size: 11px;
+      font-family: "黑体";
+      color: #cecdcd; }
+  .header .language {
+    float: right;
+    padding: 10px;
+    border: 1px solid #cecdcd;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: linear-gradient(#ffffff, #e4e4e4);
+    margin-right: 10px; }
+    .header .language a {
+      font-size: 11px;
+      color: #8c8c8c; }
+  .header .nav-header {
+    background: linear-gradient(#a70329, #73001b);
+    padding-left: 283px;
+    padding-top: 18px;
+    padding-bottom: 18px; }
+    .header .nav-header ul li {
+      display: inline-block;
+      height: 10px;
+      line-height: 10px;
+      padding-left: 12px;
+      padding-right: 12px;
+      position: relative; }
+      .header .nav-header ul li a {
+        font-size: 12px;
+        font-weight: bold;
+        color: #ffffff;
+        padding: 8px 10px;
+        border-radius: 5px; }
+    .header .nav-header ul li::after {
+      content: "";
+      display: inline-block;
+      width: 1px;
+      height: 10px;
+      background-color: #ffffff;
+      position: absolute;
+      top: 2px;
+      right: 0; }
+    .header .nav-header ul li:last-child::after {
+      display: none; }
+    .header .nav-header ul li:hover a {
+      background: linear-gradient(#646464, #2d2d2d); }
+  .header .nav-sub {
+    margin-top: 10px; }
+    .header .nav-sub ul li {
+      display: inline-block;
+      padding-left: 10px;
+      padding-right: 10px;
+      position: relative; }
+      .header .nav-sub ul li a {
+        font-size: 12px; }
+    .header .nav-sub ul li::after {
+      content: "";
+      display: inline-block;
+      width: 1px;
+      height: 12px;
+      background-color: #333333;
+      position: absolute;
+      top: 5px;
+      right: 0; }
+    .header .nav-sub ul li:last-child::after {
+      display: none; }
+
+.footer {
+  background: linear-gradient(#e7e7e7, #ffffff);
+  padding-top: 12px;
+  padding-left: 37px;
+  padding-bottom: 10px;
+  border: 1px solid #dddddd; }
+  .footer .logo {
+    display: inline-block; }
+  .footer .center {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 48px; }
+    .footer .center .nav-footer ul li {
+      display: inline-block;
+      padding-left: 14px;
+      padding-right: 16px;
+      border-right: 1px solid #8c8c8c; }
+      .footer .center .nav-footer ul li a {
+        color: #8c8c8c; }
+    .footer .center .nav-footer ul li:first-child {
+      padding-left: 0; }
+    .footer .center .nav-footer ul li:last-child {
+      padding-right: 0;
+      border: none; }
+    .footer .center .copyright {
+      margin-top: 8px;
+      color: #8c8c8c; }
+  .footer .design-button {
+    display: inline-block;
+    margin-left: 30px; }
+    .footer .design-button a {
+      display: block;
+      width: 107px;
+      height: 23px;
+      background-color: #901e14;
+      font-size: 11px;
+      font-family: "Arial";
+      line-height: 23px;
+      text-align: center;
+      color: #ffffff; }
+
+button {
+  width: 95px;
+  height: 25px;
+  font-size: 12px;
+  color: #ffffff;
+  background: linear-gradient(#a70329, #73001b);
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer; }
+
+.wrapper .right .product-type-list {
+  width: 602px;
+  padding-top: 55px;
+  margin: 0 auto; }
+  .wrapper .right .product-type-list ul li {
+    display: block;
+    width: 602px;
+    height: 117px;
+    background-image: url("../images/product_bg.png");
+    margin-bottom: 98px;
+    padding-top: 40px;
+    position: relative; }
+    .wrapper .right .product-type-list ul li img {
+      position: absolute;
+      top: -34px;
+      left: 15px; }
+    .wrapper .right .product-type-list ul li p {
+      color: #ffffff;
+      display: block;
+      width: 268px;
+      margin-left: 295px; }
+    .wrapper .right .product-type-list ul li .big {
+      font-size: 18px;
+      font-family: "黑体";
+      text-align: right;
+      margin-bottom: 15px; }
+    .wrapper .right .product-type-list ul li .small {
+      font-size: 12px; }
+
+/*# sourceMappingURL=product_overview.css.map */
