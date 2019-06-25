@@ -192,15 +192,4 @@
       top: 0;
       left: 0; }
 
-button {
-  width: 95px;
-  height: 25px;
-  font-size: 12px;
-  color: #ffffff;
-  background: linear-gradient(#a70329, #73001b);
-  border: none;
-  border-radius: 5px;
-  outline: none;
-  cursor: pointer; }
-
 /*# sourceMappingURL=index.css.map */

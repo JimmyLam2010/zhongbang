@@ -1,4 +1,6 @@
 $gradient_button: linear-gradient(#a70329, #73001b)
+$gradient_nav: linear-gradient(#a70329, #73001b)
+$gradient_nav_hover: linear-gradient(#646464, #2d2d2d)
     
 .wrapper
     width: 974px
@@ -66,7 +68,7 @@ $gradient_button: linear-gradient(#a70329, #73001b)
                 margin-top: 10px
 
     .nav
-        background: linear-gradient(#a70329, #73001b)
+        background: $gradient_nav
         border-bottom-left-radius: 5px
         border-bottom-right-radius: 5px
         padding-top: 5px
@@ -90,7 +92,7 @@ $gradient_button: linear-gradient(#a70329, #73001b)
                     border-radius: 5px
 
                 a:hover
-                    background: linear-gradient(#646464, #2d2d2d)
+                    background: $gradient_nav_hover
 
             li::after
                 content: ''
@@ -104,7 +106,7 @@ $gradient_button: linear-gradient(#a70329, #73001b)
             
             li:first-child 
                 a
-                    background: linear-gradient(#646464, #2d2d2d)
+                    background: $gradient_nav_hover
     
     .content
         padding-top: 35px
@@ -246,14 +248,3 @@ $gradient_button: linear-gradient(#a70329, #73001b)
                 position: absolute
                 top: 0
                 left: 0
-
-button
-    width: 95px
-    height: 25px
-    font-size: 12px
-    color: #ffffff
-    background: $gradient_button
-    border: none
-    border-radius: 5px
-    outline: none
-    cursor: pointer

@@ -1,0 +1,11 @@
+.header .nav-header ul li:nth-child(4) a {
+  background: linear-gradient(#646464, #2d2d2d); }
+.header .nav-sub {
+  margin-left: 565px; }
+
+.wrapper {
+  width: 980px;
+  height: 100%;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=product.css.map */
