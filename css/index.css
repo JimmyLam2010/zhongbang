@@ -69,8 +69,7 @@
           color: #ffffff;
           padding: 8px 20px 6px;
           text-align: center;
-          border-radius: 5px;
-          transition: all 0.5s; }
+          border-radius: 5px; }
         .wrapper .nav ul li a:hover {
           background: linear-gradient(#646464, #2d2d2d); }
       .wrapper .nav ul li::after {
