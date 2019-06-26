@@ -277,7 +277,7 @@ button {
           height: 22px;
           font-size: 12px;
           font-weight: bold;
-          background: linear-gradient(#ffffff, #d2d2d2);
+          background: linear-gradient(#ffffff, #f2f2f2);
           background: url("../images/search_button.png") no-repeat 3px center;
           padding-left: 17px;
           border: 1px solid #999999;

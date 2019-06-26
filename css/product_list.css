@@ -357,33 +357,39 @@ button {
       .wrapper .right .index img {
         margin-left: 494px; }
 
-.wrapper .right .product-type-list {
-  width: 602px;
-  padding-top: 55px;
-  margin: 0 auto; }
-  .wrapper .right .product-type-list ul li {
-    display: block;
-    width: 602px;
-    height: 117px;
-    background-image: url("../images/product_bg.png");
-    margin-bottom: 98px;
-    padding-top: 40px;
-    position: relative; }
-    .wrapper .right .product-type-list ul li img {
-      position: absolute;
-      top: -34px;
-      left: 15px; }
-    .wrapper .right .product-type-list ul li p {
-      color: #ffffff;
-      display: block;
-      width: 268px;
-      margin-left: 295px; }
-    .wrapper .right .product-type-list ul li .big {
-      font-size: 18px;
-      font-family: "黑体";
-      text-align: right;
-      margin-bottom: 15px; }
-    .wrapper .right .product-type-list ul li .small {
-      font-size: 12px; }
+.wrapper .right .product-list-all {
+  padding-top: 40px;
+  margin: 0 38px; }
+  .wrapper .right .product-list-all ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+    .wrapper .right .product-list-all ul li {
+      margin-bottom: 46px; }
+      .wrapper .right .product-list-all ul li a img {
+        width: 138px;
+        height: 110px;
+        border: 1px solid #e6e6e6;
+        padding: 2px; }
+      .wrapper .right .product-list-all ul li a .product-model {
+        width: 144px;
+        height: 17px;
+        background: linear-gradient(#a12b1f, #71150c);
+        font-size: 12px;
+        font-family: "Arial";
+        color: #ffffff;
+        text-align: center;
+        padding-top: 5px;
+        transform: translateY(-3px); }
+.wrapper .right .pagination {
+  text-align: center; }
+  .wrapper .right .pagination ul li {
+    display: inline-block;
+    font-size: 12px; }
+    .wrapper .right .pagination ul li a {
+      color: #99210b;
+      padding: 5px;
+      border: 1px solid #dedfde; }
 
-/*# sourceMappingURL=product_overview.css.map */
+/*# sourceMappingURL=product_list.css.map */
